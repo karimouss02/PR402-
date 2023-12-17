@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="vehicle_types">
+        <item>Coche</item>
+        <item>Moto</item>
+        <item>Patinete</item>
+        <item>Furgoneta</item>
+        <item>Trailer</item>
+    </array>
+</resources>

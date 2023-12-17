@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerVehicleTypeDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/vehicle_types"
+        android:prompt="@string/choose_vehicle_type" />
+
+    <EditText
+        android:id="@+id/editTextRuedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de ruedas"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de motor" />
+
+    <EditText
+        android:id="@+id/editTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Color del vehículo" />
+
+    <LinearLayout
+        android:id="@+id/layoutNumAsiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/editTextAsiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de asientos"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo del vehículo" />
+
+    <EditText
+        android:id="@+id/editTextCargaMaxima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carga máxima" />
+</LinearLayout>

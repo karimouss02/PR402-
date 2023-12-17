@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCreateVehicle"
+        android:title="Create Vehicle"/>
+    <item
+        android:id="@+id/menuConsultCount"
+        android:title="Consult Vehicle Count"/>
+    <item
+        android:id="@+id/menuListVehicles"
+        android:title="List Vehicles"/>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit"/>
+</menu>

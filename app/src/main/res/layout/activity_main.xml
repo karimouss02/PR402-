@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_vehicle" />
+
+    <Button
+        android:id="@+id/btnConsultCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consult_vehicle_count" />
+
+    <Button
+        android:id="@+id/btnListVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_vehicles" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit" />
+
+    <!-- Diseño del cuadro de diálogo para crear vehículo -->
+    <LinearLayout
+        android:id="@+id/dialogCreateVehicleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Spinner
+            android:id="@+id/spinnerVehicleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:entries="@array/vehicle_types"
+            android:prompt="@string/choose_vehicle_type" />
+
+        <EditText
+            android:id="@+id/editTextRuedas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de ruedas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextMotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo de motor" />
+
+        <EditText
+            android:id="@+id/editTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color del vehiculo" />
+
+        <EditText
+            android:id="@+id/editTextAsiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de asientos"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Modelo del vehiculo" />
+
+        <EditText
+            android:id="@+id/editTextCargaMaxima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Carga máxima" />
+
+
+    </LinearLayout>
+</LinearLayout>

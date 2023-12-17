@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Concesionario</string>
+    <string name="choose_vehicle_type">Choose Vehicle Type</string>
+    <string name="create_vehicle">Create Vehicle</string>
+    <string name="consult_vehicle_count">Consult Vehicle Count</string>
+    <string name="list_vehicles">List Vehicles</string>
+    <string name="dialog_vehicle_type">Seleccione el tipo de vehículo</string>
+    <string name="dialog_vehicle_properties">Seleccione las propiedades del vehículo</string>
+    <string name="dialog_consult_count_title">Seleccione la consulta</string>
+    <string name="dialog_list_vehicles_title">Seleccione la lita de vehiculos</string>
+    <string name="exit">Exit</string>
+
+
+
+</resources>
